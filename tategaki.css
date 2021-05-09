@@ -26,10 +26,10 @@ body{
 
 @keyframes anim2 {
   0% {
-  transform: translateX(-1500px) translateY(5deg);
+  transform: translateX(-1500px);
   }
   100% {
-  transform: translateX(1000px) translateY(30deg);
+  transform: translateX(1000px);
   }
 }
            
