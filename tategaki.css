@@ -1,11 +1,12 @@
 body{
      background: linear-gradient(#99cc00, #608000 ) fixed;
+     text-align: center;
 }
 
 #titles{
     position: absolute;
     width: 18em;
-    height: 30em;
+    height: 50em;
     bottom: 0;
     left: 50%;
     margin-left: -9em;
@@ -60,7 +61,7 @@ body{
 .tategaki-wrap{
     border: none;
     margin: 0 auto;
-    width: 1210px;
+    width: 600px;
   }
  
 .tategaki{
