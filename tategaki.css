@@ -1,38 +1,40 @@
 body{
      background: linear-gradient(#99cc00, #608000 ) fixed;
-     /*text-align: center;*/
-}
+     color:#FFFFFC;
+     /*text-align: right;  centerにしてもどちらも変わりない*/
+     overflow:hidden;
+     }
 
 #titles{
     position: absolute;
-    width: 18em;
-    height: 50em;
+    width: 30em;
+    height: 30em;
     bottom: 0;
     left: 50%;
-    margin-left: -9em;
-    font-size: 250%;
+    margin-left: -5em;
+    font-size: 350%;
     font-weight: bold;
     text-align: justify;
     /*overflow: hidden;*/
     overflow:visible;
-   /* transform-origin: 50% 100%;
-    transform: perspective(300px) rotateX(25deg);ふつうの流れ*/
-    /*transform: perspective(50px)
+    transform-origin: 50% 100%;
+    transform: perspective(200px) rotateX(15deg);  /*ふつうの流れ*/
+    /*transform: perspective(50px);
            scaleZ(1.1)
            rotateY(20deg);おかしな縦長上に流れる*/
      /*transform-origin:50% 100%;
      transform:perspective(300px) rotateY(15deg);斜めの幕上がっていく*/
-      animation: anim2 30s infinite;
+     /* animation: anim2 30s infinite;*/
 }
 
-@keyframes anim2 {
+/*@keyframes anim2 {
   0% {
   transform: translateX(-1500px);
   }
   100% {
   transform: translateX(1000px);
   }
-}
+}*/
            
 
 
@@ -50,13 +52,13 @@ body{
 #titlecontent{
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 4s infinite;
+    animation: scroll 30s linear 1s infinite;
 }
 
-/*@keyframes scroll {
+@keyframes scroll {
     0% { top: 100%; }
     100% { top: -170%; }
-}*/
+}
 
 .tategaki-wrap{
     border: none;
